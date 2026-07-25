@@ -1,4 +1,4 @@
-# Naina AI Assistant
+# Samantha AI Assistant
 
 An AI-powered voice assistant built with FastAPI, SQLite, and LLM integrations for natural voice conversations.
 
