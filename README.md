@@ -71,13 +71,25 @@ The project has three connected pieces:
 
 ---
 
+## 🎬 Demo
+
+![Samantha Demo](screenshots/Samantha-ezgif.com-video-to-gif-converter.gif)
+
+*Samantha booking and cancelling a hospital appointment through a live voice conversation.*
+
 ## 📸 Screenshots
 
-> Add your own screenshots to a `screenshots/` folder in the repo and update the paths below — GitHub will render them automatically once the files exist.
-
-| Staff Portal | Vapi Assistant Config |
+| Staff Portal — Schedule/Check | Vapi Assistant Configuration |
 |---|---|
-| ![Appointment Portal](screenshots/portal.png) | ![Vapi Dashboard](screenshots/vapi-dashboard.png) |
+| ![Appointment Portal](screenshots/3.jpg) | ![Vapi Dashboard](screenshots/1.png) |
+
+| Staff Portal — Cancel | Backend API Docs |
+|---|---|
+| ![Cancel Portal](screenshots/4.jpg) | ![Backend Docs](screenshots/5.png) |
+
+## 🏗️ System Architecture
+
+![Architecture Diagram](screenshots/2.png)
 
 ---
 
