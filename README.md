@@ -37,27 +37,6 @@ The project has three connected pieces:
 
 ---
 
-## 🏗️ Architecture
-
-```
-                ┌────────────────────┐
-   Caller  ───▶ │   Vapi Assistant   │
-   (voice)      │  "Samantha" (GPT-4o)│
-                └─────────┬──────────┘
-                          │ tool calls (HTTPS)
-                          ▼
-                ┌────────────────────┐        ┌────────────────────┐
-                │   FastAPI Backend   │◀──────▶│  Streamlit Frontend │
-                │  (Render, uvicorn)  │  HTTPS │  (Streamlit Cloud)  │
-                └─────────┬──────────┘        └────────────────────┘
-                          │ SQLAlchemy ORM
-                          ▼
-                ┌────────────────────┐
-                │  SQLite Database   │
-                │ (appointments_db)  │
-                └────────────────────┘
-```
-
 ---
 
 ## 🔗 Live Demo
@@ -190,4 +169,6 @@ The assistant's system prompt enforces collecting the patient's **full name**, a
 
 ## 📄 License
 
-This project is currently unlicensed. Add a `LICENSE` file (e.g. MIT) if you'd like to open it up for reuse.
+[#-license](#-license)
+
+This project is licensed under the [MIT License](LICENSE).
