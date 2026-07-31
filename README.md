@@ -14,7 +14,7 @@
   An AI-powered voice assistant, <b>Samantha</b>, that manages hospital appointment scheduling for <b>Fortis Hospital, Noida</b> — built with FastAPI, SQLite, and LLM tool-calling for natural, real-time voice conversations.
 </p>
 
----
+--
 
 ## 📖 Overview
 
